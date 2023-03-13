@@ -1,0 +1,19 @@
+API List,
+Ninjas=0,https://api-ninjas.com/api/randomword
+random-word-api=1,http://random-word-api.herokuapp.com/home
+
+ChoiceApi,0
+
+Translator List,
+WordReference=0,https://www.wordreference.com/
+DeepL=1,https://www.deepl.com/translator
+
+ChoiceTranslator,0
+
+WordNumber,5
+
+Emails,['esto500@hotmail.com']
+
+API Key,
+Ninjas,X+bxfnN6BR+F4CWXiEvU2Q==K0mYeuXTlibQk54s
+DeepL,2502a65e-cb4f-4f81-6e22-608622f5909f:fx
