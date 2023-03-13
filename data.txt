@@ -12,8 +12,8 @@ ChoiceTranslator,0
 
 WordNumber,5
 
-Emails,['esto500@hotmail.com']
+Emails,['YOUR_EMAIL']
 
 API Key,
-Ninjas,X+bxfnN6BR+F4CWXiEvU2Q==K0mYeuXTlibQk54s
-DeepL,2502a65e-cb4f-4f81-6e22-608622f5909f:fx
+Ninjas,YOUR_API_KEY
+DeepL,YOUR_API_KEY
