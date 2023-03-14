@@ -1,0 +1,1 @@
+{"afresh": "de nouveau", "code": "coeur/noyau", "sought": "rechercher", "livelier":"vivant","worthwhile":"qui vaut le coup","steady":"stable"}
