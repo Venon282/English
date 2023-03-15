@@ -18,8 +18,11 @@ import random
 """
 Todo :
     -Chose the translation language + the languages of the words to translate
-    -Read me
 """
+
+#Create the application : 
+#pyinstaller --onefile ../english.py --add-data "C:\Users\esto5\anaconda3\envs\PIP\Lib\site-packages\user_agent;./user_agent/" --add-data "D:\Folders\Code\Python\English\data.txt;./" --add-data "D:\Folders\Code\Python\English\WordListTranslate.txt;./" --add-data "D:\Folders\Code\Python\English\WordList.txt;./"
+
     
 #API WORDS
 
@@ -252,10 +255,6 @@ def loadData(path):
 def main():
     dico, separator = loadData( os.path.dirname(os.path.abspath(__file__))+"\data.txt")
     data = choiceData(int(dico["choicedata"]),dico)
-
-    
-
-    
 
 if __name__ == "__main__":
     main()
