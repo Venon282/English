@@ -26,7 +26,7 @@ You have differents files.
 
 ## How use it ?
 
-First you have to complete the data.txt in English application if you use the application, in the current folder if the .pyy. Enter your email(s) and your api keys
+First you have to complete the data.txt in English application or put them in the dist if you use the application, in the current folder if the .pyy. Enter your email(s) and your api keys
 
 To send an email with the number of random words chosen in the data.txt file, simply run the application.
 
