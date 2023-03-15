@@ -252,7 +252,7 @@ def loadData(path):
     return api_keys
     
 def main():
-    dico, separator = loadData( os.path.dirname(os.path.abspath(__file__))+"\data.txt")
+    dico, separator = loadData("data.txt")
     data = choiceData(int(dico["choicedata"]),dico)
 
 if __name__ == "__main__":
