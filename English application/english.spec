@@ -8,7 +8,7 @@ a = Analysis(
     ['..\\english.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:\\Users\\esto5\\anaconda3\\envs\\PIP\\Lib\\site-packages\\user_agent', './user_agent/'), ('D:\\Folders\\Code\\Python\\English\\data.txt', './'), ('D:\\Folders\\Code\\Python\\English\\WordListTranslate.txt', './'), ('D:\\Folders\\Code\\Python\\English\\WordList.txt', './')],
+    datas=[('C:\\Users\\esto5\\anaconda3\\envs\\PIP\\Lib\\site-packages\\user_agent', './user_agent/'), ('D:\\Folders\\Code\\Python\\English\\data.txt', './'), ('..\\WordListTranslate.txt', './'), ('..\\WordList.txt', './')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
