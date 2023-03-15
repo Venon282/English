@@ -163,7 +163,7 @@ def wordApiTxt(dico):
     return True
 
 def wordListTxt(dico):
-    with open("wordlist.txt", 'r') as file: #"wordlist.txt=1"
+    with open("wordlist.txt", 'r') as file:
         words_array = ast.literal_eval(file.read())
         words=[]
         size = len(words_array)
@@ -183,7 +183,7 @@ def wordListTxt(dico):
         return True
             
 def wordListTranslateTxt(dico):
-    with open("wordlisttranslate.txt", 'r') as file: #dico["wordlisttranslate.txt=2"]
+    with open("wordlisttranslate.txt", 'r') as file:
         words_dico =json.loads(file.read())
         words=[]
         

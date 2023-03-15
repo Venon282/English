@@ -15,8 +15,8 @@ ChoiceTranslator,0
 
 Data List,
 WordApi=0,
-WordList.txt=1,D:/Folders/Code/Python/English/wordlist.txt
-WordListTranslate.txt=2,D:/Folders/Code/Python/English/WordListTranslate.txt
+WordList.txt=1,
+WordListTranslate.txt=2,
 
 ChoiceData,1
 
