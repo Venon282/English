@@ -25,7 +25,7 @@ ChoiceData,1
 WordNumber,5
 WordReferenceMaxExemples,5
 
-Emails,['esto500@hotmail.com']
+Emails,['YOUR_EMAIL']
 --------------------------------------------------------------,
 
 API Key,
