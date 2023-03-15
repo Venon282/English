@@ -130,7 +130,6 @@ def choiceTranslator(choice,dico,words):
 def sendOutlookEmail(to, subject, body):
     outlook = win32.Dispatch('outlook.application')
     
-        
     mail = outlook.CreateItem(0)
     mail.To = to
     mail.Subject = subject
@@ -164,7 +163,7 @@ def wordApiTxt(dico):
     return True
 
 def wordListTxt(dico):
-    with open(dico["wordlist.txt=1"], 'r') as file:
+    with open("wordlist.txt", 'r') as file: #"wordlist.txt=1"
         words_array = ast.literal_eval(file.read())
         words=[]
         size = len(words_array)
@@ -184,7 +183,7 @@ def wordListTxt(dico):
         return True
             
 def wordListTranslateTxt(dico):
-    with open(dico["wordlisttranslate.txt=2"], 'r') as file:
+    with open("wordlisttranslate.txt", 'r') as file: #dico["wordlisttranslate.txt=2"]
         words_dico =json.loads(file.read())
         words=[]
         

@@ -1,0 +1,33 @@
+,
+API List,
+Ninjas=0,https://api-ninjas.com/api/randomword
+random-word-api=1,http://random-word-api.herokuapp.com/home
+
+ChoiceApi,1
+--------------------------------------------------------------,
+
+Translator List,
+WordReference=0,https://www.wordreference.com/
+DeepL=1,https://www.deepl.com/translator
+
+ChoiceTranslator,0
+--------------------------------------------------------------,
+
+Data List,
+WordApi=0,
+WordList.txt=1,D:/Folders/Code/Python/English/wordlist.txt
+WordListTranslate.txt=2,D:/Folders/Code/Python/English/WordListTranslate.txt
+
+ChoiceData,1
+
+--------------------------------------------------------------,
+
+WordNumber,5
+WordReferenceMaxExemples,5
+
+Emails,['YOUR_EMAIL']
+--------------------------------------------------------------,
+
+API Key,
+Ninjas,YOUR_KEY_API
+DeepL,YOUR_KEY_API
