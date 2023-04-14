@@ -30,7 +30,7 @@ def RDARandoms(n):
     array = []
     for i in range(n):
        array.append(RDARandom()[0]) 
-    return array
+    return array 
     
 def RDARandom():
     response =  requests.get("https://random-word-api.herokuapp.com/word")
